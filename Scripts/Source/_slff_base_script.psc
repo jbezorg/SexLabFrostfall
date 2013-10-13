@@ -8,11 +8,11 @@ float           property exposureAdjust = 5.0   autoreadonly
 
 Actor kPlayer
 
-int function qvGetVersion()
+int Function qvGetVersion()
 	return 1
 endFunction
 
-function Update( int aiCurrentVersion )
+function qvUpdate( int aiCurrentVersion )
 	RegisterForModEvent("StageStart", "stageStart")
 
 	; less  000 = Dead
