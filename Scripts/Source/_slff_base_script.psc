@@ -1,4 +1,4 @@
-Scriptname _slff_base_script extends  questVersioning  
+Scriptname _slff_base_script extends questVersioning  
 
 SexLabFramework property SexLab                 auto
 GlobalVariable  property exposurePoints = none  auto hidden
